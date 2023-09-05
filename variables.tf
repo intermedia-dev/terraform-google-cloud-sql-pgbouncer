@@ -100,7 +100,7 @@ variable "machine_type" {
 variable "boot_image" {
   description = "The boot image used by PgBouncer instances. Defaults to the latest LTS Container Optimized OS version. Must be an image compatible with cloud-init (https://cloud-init.io)."
   type        = string
-  default     = "cos-cloud/cos-89-lts"
+  default     = "cos-cloud/cos-105-lts"
 }
 
 variable "tags" {
